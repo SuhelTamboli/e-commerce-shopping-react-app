@@ -1,3 +1,7 @@
+This repository is created while learning react, redux, redux-thunk, redux-saga, hooks etc. This is ecommerce shopping app created using reactjs and firebase for storage, it has test stripe payment integrated.
+Please add your own firebase config after cloning the repository.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
