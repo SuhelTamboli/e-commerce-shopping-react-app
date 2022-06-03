@@ -1,0 +1,22 @@
+
+
+const [test1,setTest1] = useState(true)
+
+useState takes one argument, which is default value of the state (i.e. default value of test1 state is true)
+
+useState gives us back an array with 2 values in it.
+first value is state value itself.
+2nd value is a setter function that allows us to set(change) the state value
+
+
+
+
+useEffect(() => {
+    console.log('first callback function')
+}, [optional dependency array])
+
+useEffect takes two arguments
+1st is callback function which represent the actual effect that we wanna run
+2nd is optional dependency array
+
+callback functions runs after painting the DOM
